@@ -19,7 +19,6 @@ public class Game {
 		board.initialBoard();
 		board.initialBoardComparator();
 		board.sortMines();		
-		System.out.println(board.toStringComparator());
 		System.out.println("Welcome to the minefield");
 		System.out.println(board.toString());
 		
